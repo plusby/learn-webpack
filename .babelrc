@@ -1,0 +1,14 @@
+{
+    "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "useBuiltIns": "usage",
+            "corejs": 3  // 指定corejs的版本
+          }
+        ]
+    ],
+    "plugins": [
+        "babel-plugin-transform-remove-console"
+    ]
+}

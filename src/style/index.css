@@ -1,0 +1,10 @@
+body{background: #000;}
+.main{
+    width: 100px;
+    height: 100px;
+    background: url(../assets/1.png) no-repeat;
+    background-size: cover;
+}
+.h5{
+    color: #fff;
+}
